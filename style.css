@@ -1,0 +1,190 @@
+@media only screen and (max-width: 600px){
+    @import url("https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css");
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    * {
+        box-sizing: border-box;
+    }
+    html, body {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .main {margin-left: 0px; }
+    .hz-menu {
+        display: none;
+        visibility: hidden;
+    }
+    .hz-menu ul {
+            flex-direction: column;
+            gap: 10px;
+    }
+    .footer .row > div {
+        width: 50% !important;
+        margin-bottom: 30px;
+    }
+    .footer .row > div {
+        width: 100% !important;
+    }
+
+    /* THE CARD CSS */
+    .card {
+        background-color: white;
+        border-radius: 3px;
+        margin-bottom: 5px;
+        width: 90%;
+        display: grid;
+        margin: 10px 10px 10px 20px;
+
+        overflow: hidden;
+        grid-template-rows: 6rem 3rem 3rem 1fr;
+        grid-template-columns: 1fr;
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0%), 0 6px 20px 0 rgb(0 0 0 / 8%);
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+}
+    .banner {
+        grid-row: 1/3;
+        grid-column: 1/-1;
+    }
+    .banner img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .dispay-picture {
+        grid-row: 2/4;
+        grid-column: 1/-1;
+        padding: 0 24px;
+        z-index: 1;
+    }
+    .log {
+        margin-left: 20px;
+        padding-top: 5px;
+        height: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 100%;
+    }
+    .content {
+        grid-row: 4 / 5;
+        grid-column: 1 / -1;
+        padding: 24px;
+    }
+    .content p, h5 {
+        margin: 0px;
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+    .content p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        color: gray;
+        margin-top: 10px;
+    }
+    /* ===== Boxicons CSS ===== */
+@import url("https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css");
+
+.btn-more {
+    position: relative;
+    display: inline-block;
+    min-width: 180px;
+    padding: 15px 10px;
+    background-color: #5549F1;
+    font-weight: 600;
+    color: #fff;
+    font-size: .9em;
+    letter-spacing: .1px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn-more:hover {
+    background-color: #766DF4;
+    padding-right: 30px;
+}
+/* button icon hover */
+.btn-more svg {
+    transition: 0.3s;
+}
+.btn-more svg:hover {
+    margin-left: 20px;
+    padding-left: 10px;
+}
+/* button icon hover */
+.btn-more i {
+    position: absolute;
+    top: 50%;
+    transform: translate(-10px, -50%);
+    display: inline-block;
+    font-size: 20px;
+    opacity: 0;
+    transition: .3s;
+}
+.btn-more:hover i {
+    transform: translate(5px, -50%);
+    opacity: 1;
+}
+
+.btn-more:active i {
+    transform: translate(10px, -50%);
+    opacity: .8;
+}
+.tab-bar {
+    visibility: visible;
+    padding: 0;
+}
+.tab, .tab img {
+    user-select: none;
+    color: black;
+    font-weight: 500;
+    width: 18px;
+    height: 18px;
+}
+.logo {
+    font-size: 30px;
+    margin: 0px;
+    padding: 15px;
+    font-weight: lighter;
+    text-align: center;
+}
+.logo sub {
+    font-size: 10px;
+    margin: -5px;
+    padding: -10px;
+    padding-right: 0px;
+}
+.bannerdam {
+    overflow: hidden;
+    width: 100%;
+    height: max-content;
+}
+.bannerdam img {
+    width: 95%;
+    height: max-content;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.bannerdam img:hover {
+    scale: 1.2;
+}
+.socialButton svg {
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.socialButton svg:hover {
+    scale: 1.2;
+}
+}
